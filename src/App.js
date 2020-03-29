@@ -1,8 +1,11 @@
-import React from "react";
-import Counter from "./components/Counter";
+import React from 'react';
+import Search from "./components/Search.js";
+import './css/App.css';
 
 function App() {
-  return <Counter />;
+  return (
+    <Search />
+  );
 }
 
 export default App;
